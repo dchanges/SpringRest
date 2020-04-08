@@ -11,7 +11,7 @@ public class DockerRestApplication {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Hello Docker from Digital Changes";
+		return "Hello Docker from Digital Changes V2";
 	}
 
 	public static void main(String[] args) {
